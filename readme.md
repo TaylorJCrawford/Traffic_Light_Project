@@ -8,11 +8,11 @@ The second is ***"traffic_light_r_pi_code"*** which is code base that is install
 server and tkinter app for the ui. The following screen shots show a highlevel of the system.
 
 <p float="left" style="padding-left: 15vw">
-  <img src="./ReadMe_Imgs/demo_image_1.jpg" width="500" />
-  <img src="./ReadMe_Imgs/demo_image_2.jpg" width="500" /> 
+  <img src="./ReadMe_Imgs/demo_image_1.jpg" width="200" />
+  <img src="./ReadMe_Imgs/demo_image_2.jpg" width="200" /> 
   <br>
-  <img src="./ReadMe_Imgs/demo_image_3.jpg" width="500" />
-  <img src="./ReadMe_Imgs/demo_image_4.jpg" width="500" />
+  <img src="./ReadMe_Imgs/demo_image_3.jpg" width="200" />
+  <img src="./ReadMe_Imgs/demo_image_4.jpg" width="200" />
 </p>
 
 ## Current Features
