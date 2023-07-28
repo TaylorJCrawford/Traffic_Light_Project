@@ -1,0 +1,26 @@
+{
+	"uploadOnSave": true,
+	"autoDelete": true,
+	"checkGitignore": false,
+	"activeTargets": [
+		"Raspberry Pi"
+	],
+	"concurrency": 5,
+	"ignore": [
+		".git/**/*",
+		".vscode/**/*"
+	],
+	"targets": [
+		{
+			"name": "Raspberry Pi",
+			"type": "sftp",
+			"host": "192.168.1.81",
+			"port": 22,
+			"user": "pi",
+			"password": "raspberry",
+			"dir": "/home/pi/test-python",
+			"privateKey": null,
+			"passphrase": null
+		}
+	]
+}

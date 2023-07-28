@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "677105732554",
+    "project_id": "traffic-light-3b9b9",
+    "storage_bucket": "traffic-light-3b9b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677105732554:android:2c16001fef909ab861dd33",
+        "android_client_info": {
+          "package_name": "com.example.traffic_light_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677105732554-gape52je2utepsmi7r5424kjvddum445.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAfvA48RA4v5Yn2d06adfy3pHYmcSeIY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677105732554-gape52je2utepsmi7r5424kjvddum445.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
