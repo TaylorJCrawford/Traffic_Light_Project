@@ -9,7 +9,7 @@ server and tkinter app for the ui. The following screen shots show a highlevel o
 
 <p float="left" style="padding-left: 15vw">
   <img src="./ReadMe_Imgs/demo_image_1.jpg" width="200" />
-  <img src="./ReadMe_Imgs/demo_image_2.jpg" width="200" /> 
+  <img src="./ReadMe_Imgs/demo_image_2.jpg" width="200" />
   <br>
   <img src="./ReadMe_Imgs/demo_image_3.jpg" width="200" />
   <img src="./ReadMe_Imgs/demo_image_4.jpg" width="200" />
@@ -54,12 +54,20 @@ That being said there are a may other options to expand this system and here a s
 
 1. Have R-PI running with an OS of your choosing as long as its capable of running python3. Set to static IP Address (Optional) - [Link](https://www.tomshardware.com/how-to/static-ip-raspberry-pi)
 2. Install Code Base Onto R-PI into relavent folder for you. If you wish to automate this process take a look at: *Pro Deployer - SFTP/FTP* for this you will need to setup / enable SSH on pi.
-3. Set both *"flaskApp.py* & *"main.py"* to autorun on pi startup - [Useful](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/#:~:text=txt%202%3E%261-,Method%202%3A%C2%A0.bashrc,-The%20second%20method)
-4. Follow the following setup guide to setup screen on pi. - [Link](
+3. Go to Preferences -> Raspberry Pi Configuration -> Disable Screen Blanking (in Display Tab) & Enable SSH (in Interface Tab) If you want to hot load program assets and files.
+4. Set *"flaskApp.py* to auto run file following this guide. [Useful](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/#:~:text=txt%202%3E%261-,Method%202%3A%C2%A0.bashrc,-The%20second%20method) - this is need for the flaskServer Setup.
+5. Setup GUI autorun Following this [video](https://www.youtube.com/watch?v=cZa1oCSdbUk). This can not be complete in the previous set as we require a number of components running that are not completed until after the .bashrc file is run.
+6. Additional you may wish to autohide the taskbar -> so its not present to the user. This can be done by right clicking the taskbar.
+7. Follow the following setup guide to setup screen on pi. - [Link](
 https://trickiknow.com/raspberry-pi-3-complete-tutorial-2018-lets-get-started/#:~:text=Open%20terminal%20in%20Raspbian%20desktop%2C%20and%20type%20the%20following%20commands.)
-4. Restart PI & You Should Be Set.
-5. Inrelation to Flutter this is a started process and should be a matter of connecting your device to the computer. Note that you need x code to create an IOS build.
+8. Restart PI & You Should Be Set.
+9. Inrelation to Flutter this is a started process and should be a matter of connecting your device to the computer. Note that you need x code to create an IOS build.
 
 ## Useful Links
 
 * https://stackoverflow.com/questions/30135206/stuck-on-autorun-python-program
+
+## Useful
+
+* If you get Cannont import ImageTK issue - like I did. Run from the command Line: "*sudo pip3 install pillow --upgrade*
+* Exit out of program with "*Ctrl+Alt+F2*" Screen

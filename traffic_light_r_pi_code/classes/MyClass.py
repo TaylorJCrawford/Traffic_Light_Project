@@ -22,6 +22,8 @@ class myClass:
         self.win.geometry("480x320") # Setting Dimensions of R-Pi Screen
         self.win.configure(background=self.ENTER_COLOUR) # Setting Default Background Colour
         self.emailClient = EmailClass(self.PATH)
+        self.win.wm_attributes('-fullscreen','true')
+
 
     def create_default_main_page_and_place(self): # Load_Default (Renamed)?
 
@@ -65,20 +67,6 @@ class myClass:
         self.emailClient.send_email(messageCode)
         # self.sendEmail2('Test Message') # Testing
 
-
-    def get_path(self):
-        """ Returns Path for assets """
-
-        self.PATH = '/home/pi/test-python/' # Setting Initial Path
-
-        try:
-            # If works running on linux env.
-            os.uname()
-        except:
-            # Else running on local dev machine. i.e. windows
-            self.PATH = ''
-        finally:
-            return self.PATH
 
     def change_screen(self):
         # (TO DO) - Also Need A Timeout to return to original screen.

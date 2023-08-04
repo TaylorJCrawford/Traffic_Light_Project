@@ -8,7 +8,7 @@ class CommonFunctions:
     def get_path(self):
         """ Returns Path for assets """
 
-        self.PATH = '/home/pi/test-python/' # Setting Initial Path
+        self.PATH = '/home/pi/traffic-light-code/' # Setting Initial Path
 
         try:
             # If works running on linux env.
