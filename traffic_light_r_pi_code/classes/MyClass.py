@@ -63,6 +63,8 @@ class myClass:
 
     def sendEmail(self, messageCode):
 
+        print("Email Sent")
+
         self.change_screen() # Return User To Main Screen.
         self.emailClient.send_email(messageCode)
         # self.sendEmail2('Test Message') # Testing

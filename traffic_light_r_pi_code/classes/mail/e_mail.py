@@ -61,7 +61,7 @@ class EmailClass:
         # This example assumes the image is in the current directory
         dir_root = os.path.dirname(os.path.abspath(__file__))
 
-        fp = open(dir_root + header_image, 'rb')
+        fp = open(dir_root + '/../..' + header_image, 'rb')
         msgImage = MIMEImage(fp.read())
         fp.close()
 
